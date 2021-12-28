@@ -1,0 +1,49 @@
+/* 
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-size: 1.875rem;
+  /* background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e); */
+  background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+span {
+  font-size: 8rem;
+  font-weight: 600;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(241, 235, 235);
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  /* background-color: transparent; */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+button:hover {
+  box-shadow: 0px 0px 10px 5px rgb(182, 179, 179);
+  transition: 0.5s;
+}
